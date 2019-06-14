@@ -1,0 +1,40 @@
+.totalHuman {
+  background-image: image('./assets/img/female1.jpg');
+  height: 100vh;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-family: 'Nexa', sans-serif;
+}
+
+.text h4 {
+  top: .1em;
+  letter-spacing: .155625em;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.text h1 {
+  color: #fff;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  letter-spacing: .03em;
+  line-height: .875;
+  font-weight: 800;
+  font-stretch:  extra-condensed;
+}
