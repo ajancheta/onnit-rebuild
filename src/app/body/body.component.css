@@ -1,5 +1,5 @@
 .totalHuman {
-  background-image: image('./assets/img/female1.jpg');
+  background-image: url("https://scdn.onnit.com/images/homepage/feature--total-human-female2--desktop.jpg");
   height: 100vh;
   position: absolute;
   background-size: cover;
@@ -10,6 +10,7 @@
   bottom: 0;
   left: 0;
   opacity: 1;
+  
 }
 
 .text {
@@ -19,6 +20,8 @@
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   font-family: 'Nexa', sans-serif;
+  text-align: left;
+  
 }
 
 .text h4 {
