@@ -13,6 +13,7 @@ This application buildout is a clone of the [Onnit.com](https://www.onnit.com) l
 
   * Angular Version 8.0.3
   * Typescript Version 3.5.1
+  * Node.js 12.3.1
 
   ## Setup Instructions for accessing the Application
 
@@ -25,8 +26,12 @@ This application buildout is a clone of the [Onnit.com](https://www.onnit.com) l
 
 `npm install` This will allow the viewer of this project to have access to the CLI (command line interface) for webpack.
 
-`npm run build`
-This will automatically build the bundle once. The entry file is `./src/main.js`, with production ready code (minified).
+`ng serve` in the project directory in Terminal. Go to http://localhost:4200/ in the browser of your choice. _Note: The app will automatically reload if you change any of the source files. This is a continuous monitoring so to stop it just type the key combination `Ctrl + C` within the terminal.
 
-#### Running the server to view the live project
-* Run `ng serve` in the project directory in Terminal. Go to http://localhost:4200/ in the browser of your choice. _Note: The app will automatically reload if you change any of the source files. This is a continuous monitoring so to stop it just type the key combination `Ctrl + C` within the terminal.
+## Known Bugs
+There are no known bugs.
+
+## Support and contact details
+This application is best viewed on a full screen. Should any problems occur, discover other bugs, or experience issues with viewing, please contact me at ashleyjancheta@gmail.com
+
+Copyright (c) 2019 **_Ashley J. Ancheta_**
