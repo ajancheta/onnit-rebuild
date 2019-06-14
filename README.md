@@ -1,27 +1,32 @@
-# ProjectNameClone
+# Onnit Rebuild
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
+#### _JavaScript, Week #3 & 4 Independent Project, *06.14.2019*_
 
-## Development server
+![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
+This application buildout is a clone of the [Onnit.com](https://www.onnit.com) landing page.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
 
-## Build
+  * Angular Version 8.0.3
+  * Typescript Version 3.5.1
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+  ## Setup Instructions for accessing the Application
 
-## Running unit tests
+#### To view project file
+* Clone this GitHub repository "https://github.com/ajancheta/onnit-rebuild.git" to your desktop. 
+* Open the repository in a preferred text editor such as Atom or Visual Studio Code.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### To run the application
+* Navigate to your machine's terminal and enter the following commands within the main project directory
 
-## Running end-to-end tests
+`npm install` This will allow the viewer of this project to have access to the CLI (command line interface) for webpack.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+`npm run build`
+This will automatically build the bundle once. The entry file is `./src/main.js`, with production ready code (minified).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+#### Running the server to view the live project
+* Run `ng serve` in the project directory in Terminal. Go to http://localhost:4200/ in the browser of your choice. _Note: The app will automatically reload if you change any of the source files. This is a continuous monitoring so to stop it just type the key combination `Ctrl + C` within the terminal.
