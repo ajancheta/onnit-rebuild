@@ -1,4 +1,11 @@
 .totalHuman {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.femalePhoto {
   background-image: url("https://scdn.onnit.com/images/homepage/feature--total-human-female2--desktop.jpg");
   height: 100vh;
   position: absolute;
@@ -10,7 +17,6 @@
   bottom: 0;
   left: 0;
   opacity: 1;
-  
 }
 
 .text {
@@ -40,4 +46,8 @@
   line-height: .875;
   font-weight: 800;
   font-stretch:  extra-condensed;
+}
+
+.mission  {
+  background-color: green;
 }
