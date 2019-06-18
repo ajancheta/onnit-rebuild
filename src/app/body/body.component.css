@@ -5,21 +5,11 @@
 }
 
 .femalePhoto img {
-    /* height: 100vh;
-    position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 1; */
     max-width: 100%;
     max-height: 100%;
 }
 
-.text {
+.totalHumanText {
     position: absolute;
     left: 30%;
     top: 50%;
@@ -29,15 +19,15 @@
     text-align: left;
 }
 
-.text h4 {
+.totalHumanText h4 {
     top: .1em;
     letter-spacing: .155625em;
     line-height: 1;
-    font-weight: 50;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 17px;
 }
 
-.text h1 {
+.totalHumanText h1 {
     color: #fff;
     margin-bottom: 2rem;
     margin-top: 0;
@@ -48,5 +38,27 @@
 }
 
 .mission {
-    background-color: green;
+    font-family: 'Nexa', sans-serif;
+    text-align: center;
+    padding-top: 5rem;
+    /* position: relative; */
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+.mission h4 {
+    color: #999;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    letter-spacing: .155625em;
+    font-weight: 700;
+    font-size: 16px;
+    top: .1em;
+}
+
+.mission h1 {
+    color: #000;
+    text-transform: uppercase;
 }
