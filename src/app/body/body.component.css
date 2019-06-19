@@ -1,7 +1,6 @@
 .totalHuman {
     position: relative;
     text-align: center;
-    /* align-items: center; */
 }
 
 .femalePhoto img {
@@ -14,7 +13,6 @@
     left: 30%;
     top: 50%;
     transform: translate(-50%, -50%);
-    text-transform: uppercase;
     font-family: 'Nexa', sans-serif;
     text-align: left;
 }
@@ -24,7 +22,8 @@
     letter-spacing: .155625em;
     line-height: 1;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 .totalHumanText h1 {
@@ -35,6 +34,7 @@
     line-height: .875;
     font-weight: 800;
     font-stretch: extra-condensed;
+    text-transform: uppercase;
 }
 
 .mission {
@@ -42,8 +42,8 @@
     text-align: center;
     padding-top: 5rem;
     /* position: relative; */
-    padding-right: 30%;
-    padding-left: 30%;
+    padding-right: 20%;
+    padding-left: 20%;
 }
 
 .mission h4 {
@@ -61,4 +61,17 @@
 .mission h1 {
     color: #000;
     text-transform: uppercase;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    letter-spacing: .03em;
+}
+
+.mission p {
+    font-weight: 400;
+    font-size: 19.5px;
+}
+
+.products {
+    display: flex;
+    padding: 1rem;
 }
