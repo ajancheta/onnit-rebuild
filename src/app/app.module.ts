@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { MissionComponent } from './mission/mission.component';
 import { IntroPhotoComponent } from './intro-photo/intro-photo.component';
+import { ProductCategoryComponent } from './product-category/product-category.component';
 
 
 
@@ -12,7 +13,8 @@ import { IntroPhotoComponent } from './intro-photo/intro-photo.component';
     AppComponent,
     NavComponent,
     MissionComponent,
-    IntroPhotoComponent
+    IntroPhotoComponent,
+    ProductCategoryComponent
   ],
   imports: [
     BrowserModule
