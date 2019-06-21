@@ -1,0 +1,38 @@
+.totalHuman {
+  position: relative;
+  text-align: center;
+}
+
+.femalePhoto img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.totalHumanText {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nexa', sans-serif;
+  text-align: left;
+}
+
+.totalHumanText h4 {
+  top: .1em;
+  letter-spacing: .155625em;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.totalHumanText h1 {
+  color: #fff;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  letter-spacing: .03em;
+  line-height: .875;
+  font-weight: 800;
+  font-stretch: extra-condensed;
+  text-transform: uppercase;
+}
