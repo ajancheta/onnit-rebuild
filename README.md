@@ -32,8 +32,8 @@ This application buildout is a clone of the [Onnit.com](https://www.onnit.com) l
 ## Completed and in progress features
 
 - [ ] Functional navigation bar
-- [ ] 
-- [ ] 
+- [ ] Within a ** page, it displays products with respective information
+- [ ] Firebase deployment 
 
 ## Known Bugs
 There are no known bugs.
