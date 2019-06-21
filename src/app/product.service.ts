@@ -18,7 +18,7 @@ export class ProductService {
       return this.database.object('supplements/' + supplementId);
   }
 
-  updateSupplement(localUpdatedAlbum){
+  updateSupplement(localUpdatedSupplement){
     var supplementEntryInFirebase = this.getSupplementById(localUpdatedSupplement.$key);
     supplementEntryInFirebase.update({name: localUpdatedSupplement.name,
                                 rating: localUpdatedSupplement.rating,
