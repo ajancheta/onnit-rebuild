@@ -1,11 +1,13 @@
 section {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: row wrap;
+  
 
 .media { 
   min-width: 0;
   margin: 5px;
+  
   }
   
 img {
