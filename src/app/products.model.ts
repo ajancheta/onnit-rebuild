@@ -4,5 +4,5 @@ export class Product {
     public type: string,
     public rating: string,
     public price: string
-  )
+  ) {}
 }

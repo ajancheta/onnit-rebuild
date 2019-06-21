@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Product } from '../products.model';
 import { Location } from '@angular/common';
-import { ProductService } from '../album.service';
+import { ProductService } from '../product.service';
 import { FirebaseObjectObservable } from 'angularfire2/database';
 
 @Component({
@@ -24,7 +24,7 @@ export class ProductDetailComponent implements OnInit {
       this.route.params.forEach((urlParametersArray) => {
        this.productId = urlParametersArray['id'];
      });
-     this.productService.getProductById(this.productId).subscribe(dataLastEmittedFromObserver => {
+     this.productService.getSupplementById(this.productId).subscribe(dataLastEmittedFromObserver => {
        this.productToDisplay = new Product(dataLastEmittedFromObserver.name,
                                         dataLastEmittedFromObserver.type,
                                         dataLastEmittedFromObserver.rating,

@@ -7,7 +7,7 @@ export class ProductService {
   products: FirebaseListObservable<any[]>;
 
   constructor(private database: AngularFireDatabase) {
-    this.products = database.list('products');
+    this.products = database.list('supplements');
   }
 
   getProducts(){
