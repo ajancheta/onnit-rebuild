@@ -7,6 +7,7 @@ import { MissionComponent } from './mission/mission.component';
 import { IntroPhotoComponent } from './intro-photo/intro-photo.component';
 import { ProductCategoryComponent } from './product-category/product-category.component';
 import { SupplementsComponent } from './supplements/supplements.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 
 
@@ -17,7 +18,8 @@ import { SupplementsComponent } from './supplements/supplements.component';
     MissionComponent,
     IntroPhotoComponent,
     ProductCategoryComponent,
-    SupplementsComponent
+    SupplementsComponent,
+    ProductDetailComponent
   ],
   imports: [
     BrowserModule,
