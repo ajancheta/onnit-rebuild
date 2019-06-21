@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This application buildout is a clone of the [Onnit.com](https://www.onnit.com) landing page.
+This application buildout is a clone of the [Onnit.com](https://www.onnit.com) landing page and ** page.
 
 
 ## Technologies Used
@@ -14,8 +14,9 @@ This application buildout is a clone of the [Onnit.com](https://www.onnit.com) l
   * Angular Version 8.0.3
   * Typescript Version 3.5.1
   * Node.js 12.3.1
+  * Firebase Database
 
-  ## Setup Instructions for accessing the Application
+## Setup Instructions for accessing the Application
 
 #### To view project file
 * Clone this GitHub repository "https://github.com/ajancheta/onnit-rebuild.git" to your desktop. 
@@ -27,6 +28,12 @@ This application buildout is a clone of the [Onnit.com](https://www.onnit.com) l
 `npm install` This will allow the viewer of this project to have access to the CLI (command line interface) for webpack.
 
 `ng serve` in the project directory in Terminal. Go to http://localhost:4200/ in the browser of your choice. _Note: The app will automatically reload if you change any of the source files. This is a continuous monitoring so to stop it just type the key combination `Ctrl + C` within the terminal.
+
+## Completed and in progress features
+
+- [ ] Functional navigation bar
+- [ ] 
+- [ ] 
 
 ## Known Bugs
 There are no known bugs.
