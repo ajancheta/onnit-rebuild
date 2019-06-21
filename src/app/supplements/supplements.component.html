@@ -1,0 +1,10 @@
+<h2>Supplements</h2>
+
+<div *ngFor="let supplement of supplements | async" class="panel panel-default">
+  <div class="panel-body">
+    <h3 (click)="goToDetailPage(product)">
+      {{product.name}}</h3><br>
+      <p>{{product.rating}}</p>
+      <p>{{product.price}}</p>
+  </div>
+</div>
