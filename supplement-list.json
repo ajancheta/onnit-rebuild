@@ -1,29 +1,35 @@
-{ "supplements": [
+{ 
+  "supplements": [
   {
+    "imgUrl": "./../assets/img/alphabrain.png",
     "name": "Alpha BRAIN (90ct)",
     "rating": "4/5",
     "price": "79.95",
     "id": "1"
   }, 
   {
+    "imgUrl": "./../assets/img/totalguthealth.png",
     "name": "Onnit Total Gut Health (30ct)",
     "rating": "4/5",
     "price": "75.90",
     "id": "2"
     },
   {
+    "imgUrl": "./../assets/img/totalmitochondria.png",
     "name": "Total Mitochondria (30ct)",
     "rating": "4.5/5",
     "price": "59.99",
     "id": "3"
   },
   {
+    "imgUrl": "./../assets/img/mineralelectrolytes.png",
     "name": "Mineral Electrolytes Hydration Mix - Fresh Lime (60 serving tub)",
     "rating": "4/5",
     "price": "39.99",
     "id": "4"
     },
   {
+    "imgUrl": "./../assets/img/glutamine.png",
     "name": "Onnit Glutamine - Unflavored (60 serving tub)",
     "rating": "4.75/5",
     "price": "21.99",
