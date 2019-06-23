@@ -1,15 +1,18 @@
 import { Injectable } from '@angular/core';
 import { Product } from './products.model';
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 import { SUPPLEMENTS } from './mock-supplements';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
 export class ProductService {
+  supplements: FirebaseListObservable<any[]>;
 
-  constructor() {}
+  constructor(private database: AngularFireDatabase) {
+    this.supplements = database.list('supplements');
+  }
 
   getSupplements() {
-    return SUPPLEMENTS;
+    return this.supplements;
   }
 
   getSupplementById(supplementId: number) {

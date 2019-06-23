@@ -8,7 +8,18 @@ import { IntroPhotoComponent } from './intro-photo/intro-photo.component';
 import { ProductCategoryComponent } from './product-category/product-category.component';
 import { SupplementsComponent } from './supplements/supplements.component';
 import { SupplementDetailComponent } from './supplement-detail/supplement-detail.component';
+import { HttpModule } from '@angular/http';
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { FooterComponent } from './footer/footer.component';
 
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 @NgModule({
   declarations: [
@@ -18,11 +29,15 @@ import { SupplementDetailComponent } from './supplement-detail/supplement-detail
     IntroPhotoComponent,
     ProductCategoryComponent,
     SupplementsComponent,
-    SupplementDetailComponent
+    SupplementDetailComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    routing
+    HttpModule,
+    routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]

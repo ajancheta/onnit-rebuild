@@ -16,7 +16,8 @@ export class SupplementDetailComponent implements OnInit {
   supplementId: number;
   supplementToDisplay: Product;
 
-  constructor(private route: ActivatedRoute, private location: Location,
+  constructor(
+    private route: ActivatedRoute, private location: Location,
     private productService: ProductService
     ) { }
 

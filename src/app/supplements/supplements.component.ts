@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Product } from '../products.model';
 import { Router } from '@angular/router';
 import { ProductService } from '../product.service';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 
 @Component({
@@ -10,9 +11,9 @@ import { ProductService } from '../product.service';
   styleUrls: ['./supplements.component.css'],
   providers: [ProductService]
 })
-export class SupplementsComponent implements OnInit {
 
-  supplements: Product[];
+export class SupplementsComponent implements OnInit {
+  supplements: FirebaseListObservable<any[]>;
 
   constructor(private router: Router, private productService: ProductService) {}  
 
