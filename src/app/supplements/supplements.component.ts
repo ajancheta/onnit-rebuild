@@ -11,18 +11,12 @@ import { FirebaseListObservable } from 'angularfire2/database';
   styleUrls: ['./supplements.component.css'],
   providers: [ProductService]
 })
-export class SupplementsComponent implements OnInit {
-  products: FirebaseListObservable<any[]>;
-  currentRoute: string = this.router.url;
-
-  constructor(private router: Router, private productService: ProductService) { }
-
-  ngOnInit() {
-    this.products = this.productService.getProducts();
-  }
-
-  goToDetailPage(clickedSupplement) {
-    this.router.navigate(['supplements', clickedSupplement.$key]);
-  };
-
+export class SupplementsComponent {
+  supplements: Product [] = [
+    new Product("Alpha BRAIN (90ct)", "supplement", "4/5", "79.95" ),
+    new Product("Onnit Total Gut Health (30ct)", "supplement", "4/5", "75.90"),
+    new Product("Total Mitochondria (30ct)", "supplement", "4.5/5", "59.99"),
+    new Product("Mineral Electrolytes Hydration Mix - Fresh Lime (60 serving tub)", "supplement", "4/5", "39.99"),
+    new Product("Onnit Glutamine - Unflavored (60 serving tub)", "supplement", "4.75/5", "21.99")
+  ];
 }
