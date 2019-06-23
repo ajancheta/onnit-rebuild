@@ -7,8 +7,7 @@ import { MissionComponent } from './mission/mission.component';
 import { IntroPhotoComponent } from './intro-photo/intro-photo.component';
 import { ProductCategoryComponent } from './product-category/product-category.component';
 import { SupplementsComponent } from './supplements/supplements.component';
-import { ProductDetailComponent } from './product-detail/product-detail.component';
-
+import { SupplementDetailComponent } from './supplement-detail/supplement-detail.component';
 
 
 @NgModule({
@@ -19,7 +18,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     IntroPhotoComponent,
     ProductCategoryComponent,
     SupplementsComponent,
-    ProductDetailComponent
+    SupplementDetailComponent
   ],
   imports: [
     BrowserModule,
