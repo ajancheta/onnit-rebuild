@@ -13,6 +13,7 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { FooterComponent } from './footer/footer.component';
+import { FeaturedProductsComponent } from './featured-products/featured-products.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -30,7 +31,8 @@ export const firebaseConfig = {
     ProductCategoryComponent,
     SupplementsComponent,
     SupplementDetailComponent,
-    FooterComponent
+    FooterComponent,
+    FeaturedProductsComponent
   ],
   imports: [
     BrowserModule,

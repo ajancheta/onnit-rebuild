@@ -1,0 +1,63 @@
+.container {
+  margin-left: 2%;
+  margin-right: -30%;
+  margin-top: 3%;
+}
+
+.new-mood {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.product-img img {
+  height: 415px;
+  width: 700px;
+}
+
+.new-mood-text {
+  margin-left: 12%;
+  margin-top: 10%;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.tshirt {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.shirt-text {
+  margin-top: 5%;
+  padding-right: 20px;
+}
+
+.product-img {
+  margin-right: -8%;
+}
+
+.alpha-brain {
+  display: flex;
+}
+
+.alpha-text {
+  margin-left: 12%;
+  margin-top: 5%;
+  margin-right: -8%;
+}
+
+.alpha-text h3 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
