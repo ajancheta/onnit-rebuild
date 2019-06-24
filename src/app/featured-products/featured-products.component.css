@@ -61,3 +61,57 @@ a {
   font-weight: bold;
   letter-spacing: 2px;
 }
+
+.product-category {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-top: 8%;
+}
+
+.media { 
+  min-width: 0;
+  /* margin: 5px; */
+  }
+  
+.media img {
+  width: 400px;
+  height: 310px;
+  }
+
+.text h4 {
+  position: absolute;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 1;
+  font-weight: 550;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 10%;
+  text-align: left;
+}
+
+.text a {
+  line-height: 1;
+  font-weight: 550;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fff;
+  
+}
+
+#mace-txt {
+margin-left: -28%;
+
+}
+
+#med-txt {
+  margin-left: -28%;
+  margin-top: -5%;
+}
+
+#cardio-txt {
+  margin-left: -28%;
+  margin-top: -5.5%;
+}
