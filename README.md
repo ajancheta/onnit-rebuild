@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This application buildout is a clone of the [Onnit.com](https://www.onnit.com) landing page and ** page.
+This application buildout is a clone of the [Onnit.com](https://www.onnit.com).
 
 
 ## Technologies Used
@@ -23,6 +23,9 @@ This application buildout is a clone of the [Onnit.com](https://www.onnit.com) l
 * Open the repository in a preferred text editor such as Atom or Visual Studio Code.
 
 #### To run the application
+* As the apiKey for the Firebase database is ignored, the user must create their own app on [Firebase](https://firebase.google.com/). 
+* Once the app is created, navigate to the account `Project Overview` of the app and scroll down to `Firebase SDK snippet`, and select `Config`
+*  Copy over the script to a file that you must create `./src/app/api-keys.ts`
 * Navigate to your machine's terminal and enter the following commands within the main project directory
 
 `npm install` This will allow the viewer of this project to have access to the CLI (command line interface) for webpack.
