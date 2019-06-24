@@ -7,13 +7,13 @@
 
 .media { 
   min-width: 0;
-  margin: 50%;
+  margin: 5%;
   }
   
 img {
   width: 400px;
   height: 335px;
-  padding: 30px;
+  padding: 10px;
   }
 
 .text {
