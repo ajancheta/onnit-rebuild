@@ -15,12 +15,12 @@ export class ProductService {
     return this.supplements;
   }
 
-  getSupplementById(supplementId: number) {
-    for (var i=0; i<=SUPPLEMENTS.length - 1; i++) {
-      if(SUPPLEMENTS[i].id === supplementId) {
-        return SUPPLEMENTS[i];
-      }
-    }
+  getSupplementById(supplementId: string) {
+    // for (var i=0; i<=SUPPLEMENTS.length - 1; i++) {
+    //   if(SUPPLEMENTS[i].id === supplementId) {
+    //     return SUPPLEMENTS[i];
+    //   }
+    // }
   }
 
 }

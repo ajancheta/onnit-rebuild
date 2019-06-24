@@ -22,6 +22,6 @@ export class SupplementsComponent implements OnInit {
   }
 
   goToDetailPage(clickedSupplement: Product) {
-    this.router.navigate(['supplements', clickedSupplement.id]);
+    // this.router.navigate(['supplements', clickedSupplement.id]);
   };
 }

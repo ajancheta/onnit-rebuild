@@ -1,5 +1,5 @@
 <div class="container">
-  <h3>{{supplementToDisplay.name}}</h3>
-  <p>Rating: {{supplementToDisplay.rating}} stars</p>
-  <p>Price: ${{supplementToDisplay.price}}</p>
+  <h3>{{(supplementToDisplay | async)?.name}}</h3>
+  <p>Rating: {{(supplementToDisplay | async)?.rating}} stars</p>
+  <p>Price: ${{(supplementToDisplay | async)?.price}}</p>
 </div>

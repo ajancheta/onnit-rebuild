@@ -3,6 +3,7 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { Location } from '@angular/common';
 import { Product } from '../products.model';
 import { ProductService } from '../product.service';
+import { FirebaseObjectObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-supplement-detail',
@@ -13,8 +14,8 @@ import { ProductService } from '../product.service';
 
 export class SupplementDetailComponent implements OnInit {
 
-  supplementId: number;
-  supplementToDisplay: Product;
+  supplementId: string;
+  supplementToDisplay;
 
   constructor(
     private route: ActivatedRoute, private location: Location,
@@ -23,10 +24,11 @@ export class SupplementDetailComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
-      this.supplementId = parseInt(urlParameters['id']);
+      this.supplementId = urlParameters['id'];
     });
     
     this.supplementToDisplay = this.productService.getSupplementById(this.supplementId);
+
   }
 
 }
