@@ -2,7 +2,7 @@
 
 <div *ngFor="let supplement of supplements | async" (click)="goToDetailPage(supplement)" class="panel panel-default">
   <div class="panel-body">
-      <!-- {{supplement.imgURL}}<br> -->
+      {{supplement.imgURL[0]}}<br>
     <h3>{{supplement.name}}</h3><br>
     <p>{{supplement.rating}}</p><br>
     <p>{{supplement.price}}</p>
