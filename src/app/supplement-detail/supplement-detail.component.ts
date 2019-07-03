@@ -3,7 +3,8 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { Location } from '@angular/common';
 import { Product } from '../products.model';
 import { ProductService } from '../product.service';
-import { FirebaseObjectObservable } from 'angularfire2/database';
+import { Observable } from 'rxjs';
+import { AngularFireDatabase } from '@angular/fire/database';
 
 @Component({
   selector: 'app-supplement-detail',

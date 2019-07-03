@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Product } from '../products.model';
 import { Router } from '@angular/router';
 import { ProductService } from '../product.service';
-import { AngularFireDatabase } from '@angular/fire';
 import { Observable } from 'rxjs'
 
 

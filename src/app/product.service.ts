@@ -2,14 +2,14 @@ import { Injectable } from '@angular/core';
 import { Product } from './products.model';
 import { SUPPLEMENTS } from './mock-supplements';
 import { Observable } from 'rxjs';
-import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabase } from '@angular/fire/database';
 
 @Injectable()
 export class ProductService {
   supplements: Observable<any[]>;
 
-  constructor(private database: AngularFireModule) {
-    this.supplements = database.collection('supplements').valueChanges();
+  constructor(private database: AngularFireDatabase) {
+    this.supplements = database.list('supplements').valueChanges();
   }
 
   getSupplements() {
