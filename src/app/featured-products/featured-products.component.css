@@ -1,7 +1,6 @@
 .container {
   font-family: 'Montserrat', sans-serif;
   margin-left: 2%;
-  margin-right: -30%;
   margin-top: 3%;
 }
 
@@ -79,18 +78,21 @@ a {
 }
 .product-category {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: nowrap;
   margin-top: 8%;
+  width: 100%;
+  
 }
 
 .media { 
-  min-width: 0;
+  /* min-width: 0; */
   }
   
 .media img {
   width: 400px;
   height: 310px;
+  padding: 10px;
   }
 
 .text h4 {
