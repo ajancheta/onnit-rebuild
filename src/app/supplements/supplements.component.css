@@ -1,0 +1,31 @@
+.supplement-header {
+  position: relative;
+  text-align: center;
+}
+
+.photo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.supplementText {
+  position: absolute;
+  top: 30%;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  left: 0;
+  text-align:center;
+  width: 100%
+}
+
+.supplementText p {
+  font-size: 1.125rem;
+}
+
+.supplementText h4 {
+  font-size: 3.375rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-stretch: extra-condensed;
+  font-family: 'Oswald', sans-serif;
+}

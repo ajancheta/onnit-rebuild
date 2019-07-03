@@ -1,10 +1,28 @@
-<h2>Supplements</h2>
+<html>
+  <head>
 
-<div *ngFor="let supplement of supplements | async" (click)="goToDetailPage(supplement)" class="panel panel-default">
-  <div class="panel-body">
-      {{supplement.imgURL[0]}}<br>
-    <h3>{{supplement.name}}</h3><br>
-    <p>{{supplement.rating}}</p><br>
-    <p>{{supplement.price}}</p>
-  </div>
-</div>
+  </head>
+
+  <body>
+    <div class="supplement-header">
+      <div class="photo">
+        <img src="./../assets/img/supplement-man.jpg" alt="man running">
+      </div>
+    
+      <div class="supplementText">
+          <h4>Supplements</h4>
+          <p>Onnit supplements are the foundation of our<br> total human optimization, built around the best <br>earth grown nutrients and scientifically proven<br> ingredients.</p>
+      </div>
+    </div>
+
+    <div *ngFor="let supplement of supplements | async" (click)="goToDetailPage(supplement)" class="panel panel-default">
+      <div class="panel-body">
+          <!-- {{supplement.imgURL[0]}}<br> -->
+        <h3>{{supplement.name}}</h3><br>
+        <p>{{supplement.rating}}</p><br>
+        <p>{{supplement.price}}</p>
+      </div>
+    </div>
+
+</body>
+</html>
