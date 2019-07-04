@@ -100,3 +100,14 @@ h3 {
   width: auto;
   height: 20px;
 }
+
+.add-to-bag {
+  width: 100%;
+  border-width: 1px;
+  padding-top: .8125rem;
+  padding-bottom: .8125rem;
+  white-space: nowrap;
+  border-color: #171717;
+  text-transform: uppercase;
+  background-color: transparent;
+}
