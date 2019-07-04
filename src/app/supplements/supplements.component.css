@@ -25,7 +25,40 @@
 .supplementText h4 {
   font-size: 3.375rem;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: bold;
   font-stretch: extra-condensed;
   font-family: 'Oswald', sans-serif;
+}
+
+.flex {
+  display: flex; 
+}
+
+nav {
+  white-space: nowrap;
+  background: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+  /* margin-right: 80%; */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  text-align: right;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #171717;
+  text-decoration: none;
+  
+}
+
+.supplements {
+  width: 150px;
+  height: 200px;
 }

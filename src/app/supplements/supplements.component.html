@@ -1,7 +1,4 @@
 <html>
-  <head>
-
-  </head>
 
   <body>
     <div class="supplement-header">
@@ -15,13 +12,28 @@
       </div>
     </div>
 
-    <div *ngFor="let supplement of supplements | async" (click)="goToDetailPage(supplement)" class="panel panel-default">
-      <div class="panel-body">
-          <!-- {{supplement.imgURL[0]}}<br> -->
-        <h3>{{supplement.name}}</h3><br>
-        <p>{{supplement.rating}}</p><br>
-        <p>{{supplement.price}}</p>
+    <div class="flex">
+      <nav>
+          <ul>
+            <li><a href="#section-1">Focus + Brain</a></li>
+            <li><a href="#section-2">Mood</a></li>
+            <li><a href="#section-3">Support & Vitality</a></li>
+            <li><a href="#section-4">Performance</a></li>
+            <li><a href="#section-4">New</a></li>
+            <li><a href="#section-4">NSF Certified</a></li>
+            <li><a href="#section-4">Best Sellers</a></li>
+          </ul>
+      </nav>
+  
+      <div *ngFor="let supplement of supplements | async" (click)="goToDetailPage(supplement)" class="panel panel-default">
+        <div class="panel-body">
+            <img class="supplements" src="{{supplement.imgUrl}}">
+          <h3>{{supplement.name}}</h3><br>
+          <p>{{supplement.rating}}</p><br>
+          <p>{{supplement.price}}</p>
+        </div>
       </div>
+
     </div>
 
 </body>

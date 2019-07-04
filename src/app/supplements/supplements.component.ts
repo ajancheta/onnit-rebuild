@@ -25,3 +25,4 @@ export class SupplementsComponent implements OnInit {
     // this.router.navigate(['supplements', clickedSupplement.id]);
   };
 }
+
