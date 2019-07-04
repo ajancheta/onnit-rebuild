@@ -1,9 +1,8 @@
 <html>
-
 <body>
   <div class="supplement-header">
     <div class="photo">
-      <img src="./../assets/img/supplement-man.jpg" alt="man running">
+      <img src="./../assets/img/runner.jpg" alt="runner">
     </div>
 
     <div class="supplementText">
@@ -22,8 +21,7 @@
         <li><a href="#">Support & Vitality</a></li>
         <li><a href="#">Performance</a></li>
         <li><a href="#">New</a></li>
-        <li><a href="#">
-            NSF® Certified</a></li>
+        <li><a href="#">NSF® Certified</a></li>
         <li><a href="#">Best Sellers</a></li>
       </ul>
     </nav>
@@ -32,20 +30,15 @@
       <div *ngFor="let supplement of supplements | async" (click)="goToDetailPage(supplement)">
         <div class="supplement-list">
           <img class="supplement-img" src="{{supplement.imgUrl}}">
-          <div class="supplement-name">
-            <h3>{{supplement.name}}</h3>
-          </div>
+          <h3>{{supplement.name}}</h3>
           <img class="rating-img" src="{{supplement.rating}}"><br>
           <p>${{supplement.price}}</p><br>
-          <form action="">
-            <button class="add-to-bag">Add to Bag</button>
+          <form action="#">
+            <button>Add to Bag</button>
           </form>
         </div>
       </div>
     </div>
-
   </div>
-
 </body>
-
 </html>
