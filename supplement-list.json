@@ -1,39 +1,46 @@
-{ 
+{
   "supplements": [
-  {
-    "imgUrl": "./../assets/img/alphabrain.png",
-    "name": "Alpha BRAIN (90ct)",
-    "rating": "4/5",
-    "price": "79.95",
-    "id": "1"
-  }, 
-  {
-    "imgUrl": "./../assets/img/totalguthealth.png",
-    "name": "Onnit Total Gut Health (30ct)",
-    "rating": "4/5",
-    "price": "75.90",
-    "id": "2"
+    {
+      "imgUrl": "../../assets/img/alphabrain.png",
+      "name": "Alpha BRAIN (90ct)",
+      "rating": "../../assets/img/4.1-rating.png",
+      "price": "79.95",
+      "id": "1"
     },
-  {
-    "imgUrl": "./../assets/img/totalmitochondria.png",
-    "name": "Total Mitochondria (30ct)",
-    "rating": "4.5/5",
-    "price": "59.99",
-    "id": "3"
-  },
-  {
-    "imgUrl": "./../assets/img/mineralelectrolytes.png",
-    "name": "Mineral Electrolytes Hydration Mix - Fresh Lime (60 serving tub)",
-    "rating": "4/5",
-    "price": "39.99",
-    "id": "4"
+    {
+      "imgUrl": "../../assets/img/alpha-brain60.png",
+      "name": "Alpha BRAIN (60ct)",
+      "rating": "../../assets/img/4.1-rating.png",
+      "price": "59.88",
+      "id": "2"
     },
-  {
-    "imgUrl": "./../assets/img/glutamine.png",
-    "name": "Onnit Glutamine - Unflavored (60 serving tub)",
-    "rating": "4.75/5",
-    "price": "21.99",
-    "id": "5"
+    {
+      "imgUrl": "../../assets/img/alpha-brain30.png",
+      "name": "Alpha BRAIN (30ct)",
+      "rating": "../../assets/img/4.1-rating.png",
+    "price": "34.95",
+      "id": "3"
+    },
+    {
+      "imgUrl": "../../assets/img/alpha-brain14.png",
+      "name": "Alpha BRAIN (14ct)",
+      "rating": "../../assets/img/4.1-rating.png",
+    "price": "18.75",
+      "id": "4"
+    },
+    {
+      "imgUrl": "../../assets/img/totalhuman.png",
+      "name": "Total Human (30 day supply)",
+    "rating": "../../assets/img/4.75-rating.png",
+    "price": "137.95",
+      "id": "5"
+    },
+    {
+      "imgUrl": "../../assets/img/totalguthealth.png",
+      "name": "Onnit Total Gut Health (30ct)",
+      "rating": "../../assets/img/4.1-rating.png",
+      "price": "75.90",
+      "id": "6"
     }
   ]
 }

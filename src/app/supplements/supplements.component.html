@@ -1,40 +1,48 @@
 <html>
 
-  <body>
-    <div class="supplement-header">
-      <div class="photo">
-        <img src="./../assets/img/supplement-man.jpg" alt="man running">
-      </div>
-    
-      <div class="supplementText">
-          <h4>Supplements</h4>
-          <p>Onnit supplements are the foundation of our<br> total human optimization, built around the best <br>earth grown nutrients and scientifically proven<br> ingredients.</p>
-      </div>
+<body>
+  <div class="supplement-header">
+    <div class="photo">
+      <img src="./../assets/img/supplement-man.jpg" alt="man running">
     </div>
 
-    <div class="flex">
-      <nav>
-          <ul>
-            <li><a href="#section-1">Focus + Brain</a></li>
-            <li><a href="#section-2">Mood</a></li>
-            <li><a href="#section-3">Support & Vitality</a></li>
-            <li><a href="#section-4">Performance</a></li>
-            <li><a href="#section-4">New</a></li>
-            <li><a href="#section-4">NSF Certified</a></li>
-            <li><a href="#section-4">Best Sellers</a></li>
-          </ul>
-      </nav>
-  
-      <div *ngFor="let supplement of supplements | async" (click)="goToDetailPage(supplement)" class="panel panel-default">
-        <div class="panel-body">
-            <img class="supplements" src="{{supplement.imgUrl}}">
-          <h3>{{supplement.name}}</h3><br>
-          <p>{{supplement.rating}}</p><br>
-          <p>{{supplement.price}}</p>
+    <div class="supplementText">
+      <h4>Supplements</h4>
+      <p>Onnit supplements are the foundation of our<br> total human optimization, built around the best <br>earth grown
+        nutrients and scientifically proven<br> ingredients.</p>
+    </div>
+  </div>
+
+  <div class="flex">
+    <nav>
+      <ul>
+        <li class="label"><a href="#">Supplements</a></li>
+        <li><a href="#">Focus + Brain</a></li>
+        <li><a href="#">Mood</a></li>
+        <li><a href="#">Support & Vitality</a></li>
+        <li><a href="#">Performance</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">
+            NSF® Certified</a></li>
+        <li><a href="#">Best Sellers</a></li>
+      </ul>
+    </nav>
+
+    <div class="flex-wrap">
+      <div *ngFor="let supplement of supplements | async" (click)="goToDetailPage(supplement)">
+        <div class="supplement-list">
+          <img class="supplement-img" src="{{supplement.imgUrl}}">
+          <div class="supplement-name">
+            <h3>{{supplement.name}}</h3>
+          </div>
+          <img class="rating-img" src="{{supplement.rating}}"><br>
+          <p>${{supplement.price}}</p>
         </div>
       </div>
-
     </div>
 
+  </div>
+
 </body>
+
 </html>
