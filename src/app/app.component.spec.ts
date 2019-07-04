@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ProjectName-Clone'`, () => {
+  it(`should have as title 'Onnit-Rebuild'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('ProjectName-Clone');
+    expect(app.title).toEqual('Onnit-Rebuild');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to ProjectName-Clone!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to Onnit-Rebuild!');
   });
 });
