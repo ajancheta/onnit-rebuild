@@ -84,6 +84,10 @@ nav ul li a {
   text-align: left;
 }
 
+p {
+  font-size: 14px;
+}
+
 h3 {
   font-size: .95625rem;
   text-align: left;
