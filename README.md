@@ -35,10 +35,10 @@ This application buildout is a clone of the [Onnit.com](https://www.onnit.com).
 ## Completed and in progress features
 
 - [x] Navigation bar
-- [ ]  Sub-menu drop down for each tab in navigation bar
+- [ ] Sub-menu drop down for each tab in navigation bar
 - [ ] Footer navigation bar
-- [ ] A complete supplement market page
-- [ ] A complete page of a supplement 
+- [x] A supplement market page
+- [ ] A page of supplement details
 - [x] Application is retrieving data from Firebase
 - [ ] Authentication / Sign in feature to allow user's to add products to their bag
 - [ ] Program is deployed
