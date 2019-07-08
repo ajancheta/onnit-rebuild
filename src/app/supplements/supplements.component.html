@@ -12,7 +12,7 @@
     </div>
   </div>
 
-  <div class="flex">
+  <div class="side-nav-container">
     <nav>
       <ul>
         <li class="label"><a href="#">Supplements</a></li>
@@ -26,7 +26,7 @@
       </ul>
     </nav>
 
-    <div class="flex-wrap">
+    <div class="supplement-list-container">
       <div *ngFor="let supplement of supplements | async" (click)="goToDetailPage(supplement)">
         <div class="supplement-list">
           <img class="supplement-img" src="{{supplement.imgUrl}}">
