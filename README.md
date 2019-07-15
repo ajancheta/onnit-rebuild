@@ -10,12 +10,12 @@ This application buildout is a clone of the [Onnit.com](https://www.onnit.com).
 
 ## Preview 
 ### Original Site: 
-<img src="src/assets/img/original-one.png" width="800" height="380">
-<img src="src/assets/img/original-two.png" width="800" height="380">
+<img src="src/assets/img/original-one.png" width="800" height="420">
+<img src="src/assets/img/original-two.png" width="800" height="420">
 
 ### My Rebuild:
-<img src="src/assets/img/preview-one.png" width="800" height="380">
-<img src="src/assets/img/preview-two.png" width="800" height="380">
+<img src="src/assets/img/preview-one.png" width="800" height="450">
+<img src="src/assets/img/preview-two.png" width="800" height="450">
 
 
 ## Technologies Used
