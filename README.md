@@ -8,6 +8,15 @@
 ## Description
 This application buildout is a clone of the [Onnit.com](https://www.onnit.com).
 
+## Preview 
+### Original Site: 
+<img src="src/assets/img/original-one.png" width="800" height="380">
+<img src="src/assets/img/original-two.png" width="800" height="380">
+
+### My Rebuild:
+<img src="src/assets/img/preview-one.png" width="800" height="380">
+<img src="src/assets/img/preview-two.png" width="800" height="380">
+
 
 ## Technologies Used
 
@@ -35,16 +44,16 @@ This application buildout is a clone of the [Onnit.com](https://www.onnit.com).
 ## Completed and in progress features
 
 - [x] Navigation bar
+- [x] A supplement market page
+- [x] Application is retrieving data from Firebase
+- [x] Application is deployed
+- [ ] Media querying for responsiveness
+- [ ] Authentication / Sign in feature to allow user's to add products to their bag
 - [ ] Sub-menu drop down for each tab in navigation bar
 - [ ] Footer navigation bar
-- [x] A supplement market page
-- [ ] A page of supplement details
-- [x] Application is retrieving data from Firebase
-- [ ] Authentication / Sign in feature to allow user's to add products to their bag
-- [ ] Program is deployed
 
 ## Known Bugs
-User will encounter an error when clicking the supplement photo on the landing page. Route to supplement html is not working as expected.
+There are no known bugs.
 
 ## Support and contact details
 This application is best viewed on a full screen. Should any problems occur, discover other bugs, or experience issues with viewing, please contact me at ashleyjancheta@gmail.com
